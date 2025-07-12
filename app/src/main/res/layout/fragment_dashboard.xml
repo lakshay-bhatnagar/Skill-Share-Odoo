@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/fragment_swap_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:padding="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:text="Your pending requests"
+            android:textSize="24sp" />
+
+        <!-- Top bar with filter and search -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="12dp">
+
+            <Spinner
+                android:id="@+id/spinner_status_filter"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:popupBackground="@color/white"
+                android:layout_marginEnd="8dp"
+                android:padding="6dp"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/et_search"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Search"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray"
+                android:background="@drawable/search_view_bg"
+                android:padding="10dp" />
+
+            <ImageButton
+                android:id="@+id/btn_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/search_right"
+                android:background="@drawable/profile_button_bg"
+                android:elevation="5dp"
+                android:padding="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:contentDescription="Search"
+                app:tint="@color/teal_200" />
+        </LinearLayout>
+
+        <!-- RecyclerView for swap requests -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_swap_requests"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:overScrollMode="never"
+            android:scrollbars="none"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/white" />
+
+    </LinearLayout>
+</ScrollView>

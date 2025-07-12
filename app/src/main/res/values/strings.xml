@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Skill Swap Odoo</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="greetings">Hello User</string>
+    <string name="headline">Swap <font color="#8ad7cc">Skills</font> and Learn\nSomething New</string>
+    <string name="queryhint">Search for skills...</string>
+    <string name="top_skills">Recommended skills for you</string>
+    <string name="people_like">People also like</string>
+    <string name="onboarding_text">\"A community-driven app to swap skills and grow together--for free.\"</string>
+</resources>
