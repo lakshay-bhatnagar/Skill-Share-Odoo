@@ -6,6 +6,9 @@ This mini application enables users to **list their own skills** and **request o
 
 ---
 
+## Demo Video Link
+https://www.canva.com/design/DAGs9IGEERI/IANQjZVg_ugMP_7yHeXXTw/watch?utm_content=DAGs9IGEERI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hbc5882b77b
+
 ## 💡 Overview
 
 Skill Share Odoo helps individuals connect with others by offering and receiving skills in a barter-like model. Users can create a profile, showcase their talents, and request learning opportunities from peers — all within a clean and modern mobile interface.
