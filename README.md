@@ -18,7 +18,7 @@ Skill Share Odoo helps individuals connect with others by offering and receiving
 ## File Structure
 - Web App - Oddo Hackathon.zip
 - Mobile App - SkillSwapOdoo - Android.zip
-- UI Designs - Odoo Hackathon.zip, Odoo Hackathon UI.zip, Prototype link for mobile.zip
+- UI Designs - Odoo Hackathon UI.zip, Prototype link for mobile.zip
 
 ## 🔧 Features
 
@@ -46,9 +46,10 @@ Skill Share Odoo helps individuals connect with others by offering and receiving
 ---
 
 ## 🛠 Tech Stack
-- **Language:** Java, Javascript, HTML/CSS
-- **Backend:** MongoDB
-- **Framework:** Android (Native)  
+- **Language:** Java, HTML5, CSS3, JavaScript
+- **Framework:** Android (Native), Express.js, Mongoose, Node.js, dotenv, CORS
+- **Database** MongoDB
+- **Testing** Postman  
 - **Architecture:** MVVM
 - **UI:** Figma, Material Designs 
 - **Version Control:** Git, GitHub  
