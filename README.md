@@ -46,10 +46,11 @@ Skill Share Odoo helps individuals connect with others by offering and receiving
 ---
 
 ## 🛠 Tech Stack
-- **Language:** Java  
+- **Language:** Java, Javascript, HTML/CSS
+- **Backend:** MongoDB
 - **Framework:** Android (Native)  
-- **Architecture:** MVVM  
-- **UI:** Material Design, ConstraintLayout, RecyclerView  
+- **Architecture:** MVVM
+- **UI:** Figma, Material Designs 
 - **Version Control:** Git, GitHub  
 
 ---
