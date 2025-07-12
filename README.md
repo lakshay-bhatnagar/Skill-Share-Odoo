@@ -12,6 +12,11 @@ Skill Share Odoo helps individuals connect with others by offering and receiving
 
 ---
 
+## File Structure
+- Web App - Oddo Hackathon.zip
+- Mobile App - SkillSwapOdoo - Android.zip
+- UI Designs - Odoo Hackathon.zip, Odoo Hackathon UI.zip, Prototype link for mobile.zip
+
 ## 🔧 Features
 
 ### 👤 User Profile
